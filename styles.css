@@ -1,9 +1,36 @@
-body {
+/*body {
    display:block;
-}
+}*/
 header h1 {
-    margin: auto;
+    width:100%;
+    text-align:center;
+}
+.left, .right{
+    width:25%;
 }
 .wrapper {
+    padding: 10px 10px;
     background:lightgrey;
+    width:100%;
+    display:flex;
+}
+.fullPic{
+    display:block;
+    background: white;
+    width:50%;
+    margin:10px;
+
+}
+.titlePic{
+    background: white;
+    padding:10px;
+}
+.image{
+    width: 100%;
+    box-sizing: border-box;
+}
+.commentPic{
+    background: white;
+    width:100%;
+    padding:10px;
 }
