@@ -1,0 +1,9 @@
+body {
+   display:block;
+}
+header h1 {
+    margin: auto;
+}
+.wrapper {
+    background:lightgrey;
+}
