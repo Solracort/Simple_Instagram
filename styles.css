@@ -1,6 +1,6 @@
-/*body {
-   display:block;
-}*/
+body {
+    background:lightgrey;
+}
 header h1 {
     width:100%;
     text-align:center;
@@ -8,30 +8,30 @@ header h1 {
 .wrapper {
     padding: 10px 10px;
     background:lightgrey;
-    width:100%;
+    width:50%;
+    margin:auto;
+    align-items: center;
     display:flex;
-}
-.left, .right{
-    width:25%;
 }
 
 .fullPic{
     display:block;
     background: white;
     width:50%;
-    margin:10px;
+    margin:auto;
     border: 3px solid red;
     box-sizing: border-box;
 
 }
 .titlePic{
     background: white;
+    width:100%;
     padding:10px;
     box-sizing: border-box;
     display:flex;
 }
 .Title{
-    width:85%;
+    width:95%;
     left:15px;
     padding:5px;
 }
@@ -41,11 +41,13 @@ header h1 {
     padding:5px;
 }
 .imageDiv{
-    width: 50%;
+    width: 100%;
+    align-items: center;
     overflow: hidden;
 }
 .picture{
-    object-fit: contain;
+    object-fit: fill;
+    align-items: center;
     box-sizing: border-box;
     width:100%;
 
