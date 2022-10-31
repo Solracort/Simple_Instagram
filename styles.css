@@ -5,32 +5,54 @@ header h1 {
     width:100%;
     text-align:center;
 }
-.left, .right{
-    width:25%;
-}
 .wrapper {
     padding: 10px 10px;
     background:lightgrey;
     width:100%;
     display:flex;
 }
+.left, .right{
+    width:25%;
+}
+
 .fullPic{
     display:block;
     background: white;
     width:50%;
     margin:10px;
+    border: 3px solid red;
+    box-sizing: border-box;
 
 }
 .titlePic{
     background: white;
     padding:10px;
-}
-.image{
-    width: 100%;
     box-sizing: border-box;
+}
+.Title{
+    float:left;
+    padding:5px;
+}
+.date{
+    float:right;
+    color:lightgrey;
+    padding:5px;
+}
+.imageDiv{
+    width: 50%;
+    object-fit: contain;
+    overflow: hidden;
+}
+.picture{
+    object-fit: contain;
+    box-sizing: border-box;
+    width:100%;
+
 }
 .commentPic{
     background: white;
     width:100%;
     padding:10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
 }
